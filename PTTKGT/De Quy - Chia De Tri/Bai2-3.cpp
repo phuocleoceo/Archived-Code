@@ -14,8 +14,13 @@ int main()
 }
 
 /*Do phuc tap : 
-A0=1;
-An=A(n-1)+1;
+A(n)=A(n-1)+1; (ton 1 cho lenh return)
+A(n-1)=A(n-2)+1
+..............
+A(2)=A(1)+1
+A(1)=A(0)+1
+A(0)=1
 
+Cong ve theo ve A(n)=n+1
 Suy ra O(n+1)=O(n)
 */

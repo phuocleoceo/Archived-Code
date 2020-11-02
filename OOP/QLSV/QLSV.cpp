@@ -137,7 +137,7 @@ void QLSV::Remove(const SV &s)
 }
 void QLSV::RemoveAt(const int &k)
 {
-    if (k < 0 || k >= this->n - 1)
+    if (k < 0 || k >= this->n)
     {
         cout << "Chi so k khong hop le, khong the xoa !" << endl;
     }
