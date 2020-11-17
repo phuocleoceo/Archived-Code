@@ -15,7 +15,7 @@ int main()
 	// p3d->Show();
 	// Point *p;
 	// p = &p2;
-	// p->Show(); //upcast : tirnh bien dich hieu
+	// p->Show(); //upcast : trinh bien dich hieu
 	// cout << "-------------------------------------------------------------" << endl;
 	// // trỏ p3d về p2 => mất zVal   // downcast
 	// // p3d=&p2;  // lỗi
