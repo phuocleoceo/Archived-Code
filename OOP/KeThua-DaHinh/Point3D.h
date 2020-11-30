@@ -9,4 +9,5 @@ public:
 	~Point3D();
 	void Show3D();
 	void Show();
+	friend ostream &operator<<(ostream &, const Point3D &);
 };
