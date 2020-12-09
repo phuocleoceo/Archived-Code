@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 template <class T>
+Vector<T>::Vector()
+{
+	cout << "Vector" << endl;
+}
+template <class T>
 Vector<T>::Vector(int n, const T &t)
 {
 	this->size = n;

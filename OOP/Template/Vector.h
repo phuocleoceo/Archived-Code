@@ -8,10 +8,11 @@ private:
 	int size;
 
 public:
+	Vector();
 	Vector(int, const T &);
 	~Vector();
 	void Show();
-	
+
 	// template <class U>
 	// friend ostream &operator<<(ostream &, const Vector<U> &);
 	
